@@ -1,5 +1,5 @@
 # django_blog
-django blo
+django blog
 
 开发环境： Ubuntu 14.04 + Anaconda2(python 2.7) + Pycharm
 部署环境： django + mod_wsgi + apache2.4.7  
