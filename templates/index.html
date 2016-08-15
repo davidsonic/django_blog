@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block left_content %}
+
+    {% include 'ad.html' %}  <!-- bannar part-->
+    <div class="topnews">
+      <h2>最新文章</h2>
+        {% for article in article_list %}
+          <div class="blogs">
+            <ul>
+              <h3><a href="{% url 'article' %}?id={{ article.id }}">{{ article.title }}</a></h3>
+              <p>{{ article.desc }}</p>
+              <p class="autor">
+              <span class="lm f_l">
+                      {% for tag in article.tag.all %}
+                          <a href="/">{{ tag.name }}</a>&nbsp;  <!--多对多-->
+                      {% endfor %}
+              </span>
+                  <span class="dtime f_l">{{ article.date_publish | date:'Y-m-d'}}</span>
+                  <span class="viewnum f_r">{{ article.click_count }}（<a href="/">浏览</a>）</span>
+                  <span class="pingl f_r">{{ article.comment_set.all.count }}（<a href="/">评论</a>）</span>  <!--一对多-->
+              </p>
+            </ul>
+          </div>
+        {% endfor %}
+
+  {% include 'pagination.html' %}
+
+</div>  <!--top news-->
+{% endblock %}

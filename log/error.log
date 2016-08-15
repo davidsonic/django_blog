@@ -1,0 +1,218 @@
+2016-08-13 06:35:49,942 [Thread-2:140458673137408] [blog.views:12] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 06:46:24,889 [Thread-2:140174548481792] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 06:46:32,600 [Thread-2:140607353173760] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 06:46:34,858 [Thread-3:140607344518912] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 06:48:18,696 [Thread-2:139754788796160] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 06:49:10,699 [Thread-2:140391516034816] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 08:15:53,032 [Thread-2:139738315638528] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 08:16:08,733 [Thread-9:139738199619328] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 08:22:39,572 [Thread-31:140417168566016] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 08:59:57,312 [Thread-2:139787578730240] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:17:00,765 [Thread-4:139980856186624] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:20:22,022 [Thread-98:139979453687552] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:20:37,113 [Thread-109:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:20:43,599 [Thread-111:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:20:55,755 [Thread-113:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:21:00,620 [Thread-114:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:21:04,571 [Thread-115:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:21:07,692 [Thread-116:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:21:13,971 [Thread-118:139979082688256] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:40:16,891 [Thread-38:140486366983936] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:40:23,298 [Thread-48:140486322726656] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:40:30,179 [Thread-49:140486322726656] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:40:34,499 [Thread-50:140486322726656] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:40:35,999 [Thread-51:140486322726656] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:42:01,892 [Thread-80:140486339512064] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:42:05,546 [Thread-90:140486314333952] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:42:11,426 [Thread-100:140486366983936] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:42:21,410 [Thread-101:140486366983936] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:49:15,666 [Thread-3:140032737945344] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 11:49:37,389 [Thread-4:140032737945344] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:16:35,189 [Thread-2:140316625852160] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:17:26,453 [Thread-8:140316593260288] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:17:28,820 [Thread-9:140316601652992] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:20:22,092 [Thread-15:140316371838720] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:20:25,314 [Thread-16:140316380231424] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:20:30,336 [Thread-17:140316593260288] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:23:33,834 [Thread-2:140175736706816] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:26:35,377 [Thread-2:139661845829376] [blog.views:21] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:34:42,182 [Thread-2:140023699158784] [blog.views:23] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:35:46,473 [Thread-23:140023699158784] [blog.views:23] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:37:11,435 [Thread-2:140618352940800] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:38:11,296 [Thread-24:140617959073536] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:39:04,642 [Thread-2:140644438062848] [blog.views:25] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 12:57:53,092 [Thread-2:140132750964480] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:00:28,237 [Thread-2:139944408545024] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:01:46,354 [Thread-2:140440253323008] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:03:33,696 [Thread-21:140440253323008] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:06:12,382 [Thread-31:140440212338432] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:07:02,205 [Thread-2:140433397335808] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:18:45,386 [Thread-2:140131391923968] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:21:06,366 [Thread-12:140131391923968] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:21:13,607 [Thread-22:140131285591808] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:27:05,040 [Thread-59:140131260413696] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-13 13:27:07,605 [Thread-69:140131260413696] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:29:13,845 [Thread-71:140131260413696] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:29:42,837 [Thread-81:140131268806400] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:29:51,066 [Thread-82:140131268806400] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:32:02,377 [Thread-108:140131268806400] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:34:52,907 [Thread-125:140131391923968] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:34:55,652 [Thread-135:140131285591808] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:36:54,738 [Thread-145:140131391923968] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:38:00,011 [Thread-155:140131252020992] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:40:35,783 [Thread-165:140131293984512] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:41:00,208 [Thread-2:139716144948992] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:44:08,035 [Thread-50:139781896718080] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:49:44,427 [Thread-2:139911291643648] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:51:41,623 [Thread-3:139911291643648] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:54:06,096 [Thread-9:140013104240384] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:54:07,873 [Thread-19:140013070075648] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 02:54:10,226 [Thread-20:140013070075648] [blog.views:39] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:07:33,307 [Thread-41:139989920114432] [blog.views:45] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:07:39,742 [Thread-51:139989945292544] [blog.views:45] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:07:41,916 [Thread-52:139989945292544] [blog.views:45] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:19:51,677 [Thread-2:139814560188160] [blog.views:46] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:20:02,378 [Thread-12:139814443411200] [blog.views:46] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:20:42,086 [Thread-2:139993049724672] [blog.views:46] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:25:24,020 [Thread-2:140541860099840] [blog.views:48] [views:index] [ERROR]- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':%y-%m) as col_date from blog_article' at line 1")
+2016-08-14 03:25:43,022 [Thread-2:140301637297920] [blog.views:48] [views:index] [ERROR]- (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':%Y-%m) as col_date from blog_article' at line 1")
+2016-08-14 03:26:34,670 [Thread-2:140206812657408] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \':"%Y-%m") as col_date from blog_article\' at line 1')
+2016-08-14 03:26:51,698 [Thread-2:140076253562624] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \':"%Y-%m") as col_date from blog_article\' at line 1')
+2016-08-14 03:27:37,505 [Thread-2:140526736770816] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \':"%Y-%m") as col_date from blog_article\' at line 1')
+2016-08-14 03:28:24,528 [Thread-2:140488081766144] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'distinct DATE_FORMAT(date_publish,:"%Y-%m") as col_date from blog_article\' at line 1')
+2016-08-14 03:28:43,164 [Thread-2:139922681132800] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'distinct DATE_FORMAT(date_publish,:"%Y-%m") as cid, col_date from blog_article\' at line 1')
+2016-08-14 03:28:54,478 [Thread-2:140370311018240] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'distinct DATE_FORMAT(date_publish,:"%Y-%m") as cid, col_date from blog_article\' at line 1')
+2016-08-14 03:30:08,483 [Thread-2:139782059456256] [blog.views:48] [views:index] [ERROR]- (1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \':"%Y-%m") as cid, col_date from blog_article\' at line 1')
+2016-08-14 03:32:29,119 [Thread-2:140389456594688] [blog.views:55] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 03:32:38,044 [Thread-2:139793051334400] [blog.views:55] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 04:24:34,314 [Thread-2:140224696555264] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:24:41,943 [Thread-12:140224664487680] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:25:00,876 [Thread-2:140222528235264] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:26:39,801 [Thread-4:139831652906752] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:27:30,618 [Thread-2:140716531496704] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 04:27:41,782 [Thread-12:140716507821824] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 04:29:00,802 [Thread-2:140708690155264] [blog.views:61] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:29:33,814 [Thread-2:140534008698624] [blog.views:61] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:30:22,209 [Thread-2:140034887423744] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:30:24,529 [Thread-3:140034887423744] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:30:31,768 [Thread-4:140034887423744] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:32:20,329 [Thread-16:140034791438080] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:32:45,425 [Thread-2:140643267168000] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:32:47,909 [Thread-12:140643226183424] [blog.views:62] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:36:34,293 [Thread-2:140672410683136] [blog.views:59] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:37:48,393 [Thread-24:140662407042816] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:46:01,573 [Thread-2:140291898595072] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 04:46:07,435 [Thread-4:140291898595072] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:30:03,292 [Thread-11:140291798521600] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:32:06,596 [Thread-2:140570164778752] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:33:16,163 [Thread-2:140300518291200] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:33:17,686 [Thread-12:140300257318656] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:33:20,060 [Thread-22:140300518291200] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:33:36,666 [Thread-2:139710229059328] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:36:29,099 [Thread-2:140239809017600] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:39:56,252 [Thread-2:139676471498496] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:40:34,927 [Thread-2:140133438973696] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:42:13,315 [Thread-2:139971461007104] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:43:30,925 [Thread-2:140532596541184] [blog.views:60] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:44:20,541 [Thread-2:140204889560832] [blog.views:58] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:45:28,837 [Thread-2:140051997914880] [blog.views:58] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:46:02,616 [Thread-2:140298260838144] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:46:15,137 [Thread-12:140298233366272] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:46:36,352 [Thread-2:139770560485120] [blog.views:60] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2016-08-14 05:48:18,013 [Thread-2:140062614988544] [blog.views:60] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 05:49:45,222 [Thread-2:139758930462464] [blog.views:65] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:50:58,348 [Thread-2:140139379537664] [blog.views:64] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 05:58:37,154 [Thread-2:140680647145216] [blog.views:65] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:04:56,533 [Thread-11:140591703656192] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:05:19,376 [Thread-12:140591703656192] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:05:58,510 [Thread-22:140591712048896] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:09:55,920 [Thread-32:140591720441600] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:11:08,563 [Thread-38:140591685297920] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:12:26,286 [Thread-50:140591685297920] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:23:18,329 [Thread-12:140654266955520] [blog.views:95] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2016-08-14 06:23:22,476 [Thread-13:140654266955520] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:23:29,447 [Thread-15:140654225446656] [blog.views:67] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 06:50:39,011 [Thread-12:139895121106688] [blog.views:100] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2016-08-14 06:50:43,770 [Thread-13:139895121106688] [blog.views:72] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 07:57:08,342 [Thread-2:139846849939200] [blog.views:77] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:00:33,525 [Thread-2:140356412630784] [blog.views:77] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:05:05,086 [Thread-2:139952578008832] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:32,765 [Thread-12:139952180426496] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:41,572 [Thread-2:140395601204992] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:44,657 [Thread-12:140395367364352] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:47,921 [Thread-13:140395367364352] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:49,952 [Thread-14:140395367364352] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:05:52,568 [Thread-15:140395367364352] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:12:25,314 [Thread-16:140395367364352] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:12:30,393 [Thread-26:140395577530112] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:12:33,654 [Thread-36:140395601204992] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:12:37,172 [Thread-37:140395601204992] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:12:41,141 [Thread-38:140395601204992] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:15:01,215 [Thread-39:140395601204992] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:17:08,545 [Thread-2:140637170251520] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:17:13,741 [Thread-12:140637053032192] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:17:36,158 [Thread-2:139848765667072] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:17:39,749 [Thread-12:139848717862656] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:19:03,590 [Thread-13:139848717862656] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:19:05,958 [Thread-23:139848717862656] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:19:36,058 [Thread-2:140232984164096] [blog.views:94] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:19:39,811 [Thread-12:140232866916096] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:24:23,221 [Thread-14:140232984164096] [blog.views:71] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2016-08-14 08:28:39,755 [Thread-2:140032819111680] [blog.views:71] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:28:41,662 [Thread-12:140032559798016] [blog.views:71] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:35:28,269 [Thread-2:139966743049984] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:36:14,774 [Thread-2:140104729052928] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:36:31,435 [Thread-2:140382369797888] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:38:05,017 [Thread-12:140382244792064] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:38:39,240 [Thread-22:140382269970176] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:38:41,696 [Thread-23:140382269970176] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:39:27,978 [Thread-49:140382269970176] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:41:50,557 [Thread-2:140213740308224] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:41:57,285 [Thread-12:140213485557504] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:43:32,373 [Thread-62:140213740308224] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:45:21,927 [Thread-2:140379127019264] [blog.views:75] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:46:02,786 [Thread-2:140597867431680] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:46:28,822 [Thread-2:139708170745600] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:46:41,517 [Thread-12:139707769943808] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:48:52,228 [Thread-56:139708146808576] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:49:38,022 [Thread-2:140110288910080] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:50:45,550 [Thread-27:140110256273152] [blog.views:78] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:52:46,839 [Thread-2:139907715340032] [blog.views:74] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:55:42,688 [Thread-2:139644033439488] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:55:51,928 [Thread-13:139643942217472] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 08:55:54,201 [Thread-14:139643942217472] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 09:26:25,796 [Thread-39:139660171876096] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 09:26:28,259 [Thread-40:139660171876096] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 09:27:58,320 [Thread-41:139660171876096] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 09:28:07,034 [Thread-42:139660171876096] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 09:28:10,002 [Thread-43:139660171876096] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:21:20,043 [Thread-56:139660131415808] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:38:36,033 [Thread-2:140222319404800] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:38:37,235 [Thread-2:140079772202752] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:48:24,042 [Thread-2:139896022234880] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:49:17,046 [Thread-3:139896022234880] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:49:28,978 [Thread-13:139895929317120] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:53:38,115 [Thread-23:139895929317120] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:54:10,052 [Thread-24:139895929317120] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 10:56:15,055 [Thread-36:139895912531712] [blog.views:81] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:07:43,234 [Thread-2:140692856366848] [blog.views:83] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:14:06,268 [Thread-3:140135600645888] [blog.views:83] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:34:13,851 [Thread-16:139784970168064] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:34:21,669 [Thread-17:139784961775360] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:34:23,833 [Thread-18:139784961775360] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:35:10,841 [Thread-26:139784961775360] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:35:56,500 [Thread-2:139980299040512] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:41:00,359 [Thread-18:140475894703872] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:44:18,747 [Thread-8:139739020400384] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:45:18,966 [Thread-17:139739020400384] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:46:54,034 [Thread-29:139738994435840] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:47:08,035 [Thread-31:139738994435840] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:47:24,476 [Thread-34:139738994435840] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:51:18,236 [Thread-102:139739011221248] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:55:32,950 [Thread-160:139739002828544] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:57:45,586 [Thread-169:139739002828544] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:57:53,505 [Thread-2:140421168502528] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:58:07,346 [Thread-4:140421168502528] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:58:36,104 [Thread-5:140421168502528] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-14 11:59:37,088 [Thread-6:140421168502528] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'
+2016-08-15 03:37:00,971 [Thread-2:140241588057856] [blog.views:85] [views:index] [ERROR]- [Errno 2] No such file or directory: 'sss.txt'

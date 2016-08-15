@@ -1,0 +1,1832 @@
+2016-08-13 06:46:24,893 [Thread-2:140174548481792] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 23, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-08-13 06:46:32,605 [Thread-2:140607353173760] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 23, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-08-13 06:46:34,860 [Thread-3:140607344518912] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 23, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-08-13 08:36:24,030 [Thread-2:140686771836672] [django.request:182] [base:get_response] [WARNING]- Not Found: /p.html
+2016-08-13 09:04:33,400 [Thread-32:139706159331072] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 09:08:12,409 [Thread-51:139706508363520] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2016-08-13 10:38:14,928 [Thread-6:139874991728384] [django.request:182] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2016-08-13 11:16:57,162 [Thread-3:139980864579328] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-08-13 11:20:24,974 [Thread-108:139979082688256] [django.request:182] [base:get_response] [WARNING]- Not Found: /p.html
+2016-08-13 11:20:45,435 [Thread-112:139979082688256] [django.request:182] [base:get_response] [WARNING]- Not Found: /p.html
+2016-08-13 11:23:00,901 [Thread-139:139979091080960] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 11:24:03,575 [Thread-142:139979477362432] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 11:24:06,386 [Thread-144:139979477362432] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 11:30:25,098 [Thread-150:139979435067136] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 11:31:53,001 [Thread-157:139979435067136] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 11:33:49,312 [Thread-2:139913094637312] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-13 11:33:56,337 [Thread-4:139913094637312] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-13 11:37:34,187 [Thread-31:139954507335424] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1437, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1378, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 991, in save_model
+    obj.save()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 708, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 736, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 820, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/base.py", line 859, in _do_insert
+    using=using, raw=raw)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 117, in execute
+    six.reraise(utils.IntegrityError, utils.IntegrityError(*tuple(e.args)), sys.exc_info()[2])
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+IntegrityError: (1048, "Column 'user_id' cannot be null")
+2016-08-13 12:58:58,228 [Thread-13:140132493551360] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2016-08-14 03:03:14,517 [Thread-23:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:03:22,893 [Thread-25:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/1/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:03:51,377 [Thread-26:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/1/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:03:53,697 [Thread-27:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/1/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:03:59,623 [Thread-31:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:04:07,982 [Thread-32:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:04:09,006 [Thread-33:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:04:09,224 [Thread-34:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:04:09,426 [Thread-35:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:04:16,344 [Thread-39:139675793270528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:05:56,028 [Thread-2:140609818580736] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 03:06:02,832 [Thread-5:140609818580736] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/6/change/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 541, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 244, in inner
+    return view(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1440, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    return func(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1367, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/contrib/admin/options.py", line 642, in get_form
+    % (e, self.__class__.__name__))
+FieldError: Unknown field(s) (date_publish) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-08-14 04:26:23,535 [Thread-2:139831652906752] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2016-08-14 04:26:36,343 [Thread-3:139831652906752] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2016-08-14 04:46:01,806 [Thread-3:140291898595072] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-08-14 05:58:37,160 [Thread-2:140680647145216] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 67, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 05:59:31,555 [Thread-4:140680623781632] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 85, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:00:21,760 [Thread-14:140680590210816] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 85, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:03:27,489 [Thread-2:140591811680000] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:03:39,305 [Thread-6:140591703656192] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:04:48,586 [Thread-9:140591712048896] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:04:53,156 [Thread-10:140591720441600] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in archive
+    return render(request,'archive.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:04:56,542 [Thread-11:140591703656192] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 69, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:09:55,926 [Thread-32:140591720441600] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 69, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 151, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 148, in get_parent
+    return self.find_template(parent, context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 128, in find_template
+    template_name, skip=history,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: slice requires 2 arguments, 1 provided
+2016-08-14 06:29:16,105 [Thread-2:140133748401920] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 83, in archive
+    archive_list=Article.objects.distinct_date()
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/models.py", line 57, in distinct_date
+    date2 = date['date_publish'].strftime('%Y-%m文章存档')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 06:40:19,752 [Thread-2:139919394612992] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /archive/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 83, in archive
+    archive_list=Article.objects.distinct_date()
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/models.py", line 57, in distinct_date
+    date2 = date['date_publish'].strftime('%Y-%m文章存档')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2016-08-14 10:48:24,057 [Thread-2:139896022234880] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 83, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 505, in render
+    url = reverse(project_name + '.' + view_name,
+TypeError: coercing to Unicode: need string or buffer, Article found
+2016-08-14 10:53:38,116 [Thread-23:139895929317120] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 83, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'id'
+2016-08-14 10:54:13,914 [Thread-34:139895912531712] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 157, in article
+    return render(request, 'article.html', locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-08-14 10:56:11,861 [Thread-35:139895912531712] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 157, in article
+    return render(request, 'article.html', locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-08-14 11:07:51,616 [Thread-12:140692831643392] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 159, in article
+    return render(request, 'article.html', locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-08-14 11:14:02,382 [Thread-2:140135624582912] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 159, in article
+    return render(request, 'article.html', locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-08-14 11:24:17,435 [Thread-3:140251150415616] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 161, in article
+    return render(request, 'article.html', locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'comment_post' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-08-14 11:34:53,903 [Thread-24:139784961775360] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/base.html
+2016-08-14 11:36:33,682 [Thread-16:139980257224448] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:46,637 [Thread-3:140475986429696] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:53,946 [Thread-5:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:54,627 [Thread-7:140475877918464] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:54,852 [Thread-9:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:55,058 [Thread-11:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:55,235 [Thread-13:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:55,443 [Thread-15:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:40:55,637 [Thread-17:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:41:12,798 [Thread-21:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:41:50,921 [Thread-23:140475894703872] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg/css/reglogin.css
+2016-08-14 11:46:21,793 [Thread-26:139738994435840] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/base.html
+2016-08-14 11:46:56,931 [Thread-30:139738994435840] [django.request:182] [base:get_response] [WARNING]- Not Found: /base.html
+2016-08-14 11:50:58,062 [Thread-97:139738994435840] [django.request:103] [csrf:_reject] [WARNING]- Forbidden (CSRF token missing or incorrect.): /comment/post/
+2016-08-14 11:57:23,301 [Thread-164:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:29,136 [Thread-165:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/add/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:34,417 [Thread-166:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:37,995 [Thread-167:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:42,227 [Thread-168:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:45,599 [Thread-169:139739002828544] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:57:53,517 [Thread-2:140421168502528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:58:02,408 [Thread-3:140421168502528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/response.py", line 137, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:58:07,357 [Thread-4:140421168502528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-14 11:58:36,116 [Thread-5:140421168502528] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 87, in index
+    return render(request,'index.html',locals())
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/home/xiaoxiong/PycharmProjects/django_project/blog/views.py", line 45, in global_setting
+    article_comment_list=[Article.objects.get(pk=comment['article']) for comment in comment_count_list]  #根据id取出文章名字
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/xiaoxiong/anaconda2/lib/python2.7/site-packages/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Article matching query does not exist.
+2016-08-15 03:37:01,289 [Thread-3:140241564120832] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
