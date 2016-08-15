@@ -25,9 +25,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'w5ek_!j3_t)y^$jha**xf_#(%@8#zd1w51jeqndd7mu_ghm=bx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+import socket
+if socket.gethostname()=='xiaoxiong-OptiPlex-790':
+    DEBUG = True    # for deploy
+    TEMPLATE_DEBUG=True
+else:
+    DEBUG=False
+    TEMPLATE_DEBUG=False
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -115,7 +122,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -140,7 +147,7 @@ STATICFILES_DIRS=(
 MEDIA_URL='/uploads/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'uploads')
 
-
+STATIC_ROOT=os.path.join(BASE_DIR,'collected')
 # self-defined user model
 AUTH_USER_MODEL='blog.User'
 
@@ -172,7 +179,7 @@ LOGGING = {
         'default': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': 'log/all.log',     #日志输出文件
+            'filename': BASE_DIR+'/log/all.log',     #日志输出文件
             'maxBytes': 1024*1024*5,                  #文件大小
             'backupCount': 5,                         #备份份数
             'formatter':'standard',                   #使用哪种formatters日志格式
@@ -180,7 +187,7 @@ LOGGING = {
         'error': {
             'level':'ERROR',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': 'log/error.log',
+            'filename': BASE_DIR+'/log/error.log',
             'maxBytes':1024*1024*5,
             'backupCount': 5,
             'formatter':'standard',
@@ -193,7 +200,7 @@ LOGGING = {
         'request_handler': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename': 'log/script.log',
+            'filename': BASE_DIR+'/log/script.log',
             'maxBytes': 1024*1024*5,
             'backupCount': 5,
             'formatter':'standard',
@@ -201,7 +208,7 @@ LOGGING = {
         'scprits_handler': {
             'level':'DEBUG',
             'class':'logging.handlers.RotatingFileHandler',
-            'filename':'log/script.log',
+            'filename':BASE_DIR+'/log/script.log',
             'maxBytes': 1024*1024*5,
             'backupCount': 5,
             'formatter':'standard',
